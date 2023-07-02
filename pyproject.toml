@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django-study-project"
+version = "0.1.0"
+description = "study project"
+authors = ["Yuliya Dzhumanazarova <yaschick451@gmail.com>"]
+readme = "README.md"
+packages = [{include = "django_study_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^4.2.1"
+pillow = "^9.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
